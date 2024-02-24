@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+
+/*
+CORES
+
+Cor fundo: #121212
+Cor titulo: #ffffff
+Cor datas: #565656
+Cor detalhes #791e94
+
+FONTES
+"Raleway", sans-serif;
+"Libre Baskerville", serif;
+"Bebas Neue", sans-serif;
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #121212;
+	color: #ffffff;
+	font-family: "Raleway", sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #565656;
+}
