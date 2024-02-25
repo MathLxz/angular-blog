@@ -3,16 +3,15 @@
 	<div class="container-small-card-content">
 
 		<div class="small-card-photo">
-			<img
-				src="{{scPhotoCover}}"
-				alt="News Photo"
-			/>
+			<img src="{{ scPhotoCover }}" alt="News Photo" />
 		</div>
 
 		<div class="small-card-title">
-			<h1><a href="#">{{scTitle}}</a></h1>
+			<h1>
+				<a [routerLink]="['content', id]">{{ scTitle }}</a>
+			</h1>
 		</div>
-
+		
 	</div>
 
 	<div class="container-small-card-separator">
